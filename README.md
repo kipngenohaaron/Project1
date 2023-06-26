@@ -1,4 +1,4 @@
-# Animal Voting App
+# PROJECT1
 
 ## Author - Kipngenoh Aaron Rotich
 
@@ -11,7 +11,6 @@
 ## Table of Contents
 
 - [Features](#features)
-- [Demo](#demo)
 - [Setup](#setup)
 - [Technologies used](#Technologiesused)
 - [Contacts Info](#ContactsInfo)
@@ -25,9 +24,7 @@ The Animal Voting App provides the following features:
 - Click on an animal's name to view its details, including the image and number of votes.
 - Vote for an animal to increase its vote count.
 
-## Demo
 
-You can see a live demo of the Animal Voting App [here](<insert demo link>).
 
 ## Setup
 
