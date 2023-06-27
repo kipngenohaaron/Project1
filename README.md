@@ -4,9 +4,8 @@
 
 ## Project Description
 
-#### This project allows you to see the lists of animals and make a vote 
 
-##### The Animal Voting App is a web application that allows users to view a list of animals and vote for their favorite animals. It fetches data from a local server running JSON DB server and provides a user-friendly interface for interacting with the animal data.
+##### The Search App is a web application that allows users to view and search list items 
 
 ## Table of Contents
 
@@ -18,17 +17,17 @@
 
 ## Features
 
-The Animal Voting App provides the following features:
+The Search App provides the following features:
 
-- Display a list of all animal names.
-- Click on an animal's name to view its details, including the image and number of votes.
-- Vote for an animal to increase its vote count.
+- Display a list of all item names.
+- Click on an item name to view its details
+
 
 
 
 ## Setup
 
-To run the Animal Voting App locally, follow these steps:
+To run the Search App locally, follow these steps:
 
 
 #### You need to have vs-code, git installed in your machine, db.json server installed and postman
@@ -52,7 +51,7 @@ To run the Animal Voting App locally, follow these steps:
 
 ### For more information you can reach out; Email: kipngenohaaron@gmail.com
 #### 0724279400 / 0724828197 / 0101121100
-## LInk to live 
+
 
 ## License
 MIT License

@@ -14,21 +14,25 @@ function performSearch() {
   // Retrieve the search query from the input field
   const query = searchInput.value;
 
-  // Implement your search logic here
-  // Example: Searching through an array of data
-  const data = ["apple", "banana", "orange", "pear"];
-  const results = data.filter(item => item.toLowerCase().includes(query.toLowerCase()));
-
-  // Display the search results
-  if (results.length > 0) {
-    results.forEach(result => {
-      const resultItem = document.createElement("p");
-      resultItem.textContent = result;
-      searchResults.appendChild(resultItem);
+  // Make an API request
+  fetch(`https://api.example.com/search?q=${query}`)
+    .then(response => response.json())
+    .then(data => {
+      // Handle the API response
+      if (data.length > 0) {
+        data.forEach(result => {
+          const resultItem = document.createElement("p");
+          resultItem.textContent = result;
+          searchResults.appendChild(resultItem);
+        });
+      } else {
+        const noResultsMessage = document.createElement("p");
+        noResultsMessage.textContent = "No results found.";
+        searchResults.appendChild(noResultsMessage);
+      }
+    })
+    .catch(error => {
+      // Handle any errors
+      console.error(error);
     });
-  } else {
-    const noResultsMessage = document.createElement("p");
-    noResultsMessage.textContent = "No results found.";
-    searchResults.appendChild(noResultsMessage);
-  }
 }
