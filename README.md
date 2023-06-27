@@ -45,6 +45,7 @@ To run the Search App locally, follow these steps:
 3. Vscode
 4. JavaScript
 5. DB.JSON
+6. CSS
 
 
 ## Contact Info.

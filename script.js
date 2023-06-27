@@ -32,5 +32,3 @@ function performSearch() {
     searchResults.appendChild(noResultsMessage);
   }
 }
-
-
